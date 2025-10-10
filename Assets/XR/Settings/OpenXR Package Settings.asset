@@ -523,7 +523,7 @@ MonoBehaviour:
   - {fileID: -7802551473688372863}
   - {fileID: 5897151746462173565}
   - {fileID: -4165058642286656927}
-  - {fileID: 233342342280470054}
+  - {fileID: 6483136903911619269}
   - {fileID: -2524287997407532585}
   - {fileID: -3464484096586072969}
   - {fileID: -70704876794550026}
@@ -661,6 +661,27 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &6483136903911619269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de993716e042c6499d0c18eed3a773c, type: 3}
+  m_Name: MockRuntime Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Mock Runtime
+  version: 0.0.2
+  featureIdInternal: com.unity.openxr.feature.mockruntime
+  openxrExtensionStrings: XR_UNITY_null_gfx XR_UNITY_android_present
+  company: Unity
+  priority: 0
+  required: 0
+  ignoreValidationErrors: 0
 --- !u!114 &7459234780331789468
 MonoBehaviour:
   m_ObjectHideFlags: 0
